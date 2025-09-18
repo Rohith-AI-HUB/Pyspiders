@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This repository contains learning materials, exercises, and projects covering various technologies including Python, Web Technologies (HTML, CSS, JavaScript), MySQL, and Excel/PowerBI. It serves as a comprehensive learning resource for both beginners and intermediate developers.
+This repository contains is learning materials, exercises, and projects covering various technologies including Python, Web Technologies (HTML, CSS, JavaScript), MySQL, and Excel/PowerBI. It serves as a comprehensive learning resource for both beginners and intermediate developers.
 
 ## Installation Instructions
 
