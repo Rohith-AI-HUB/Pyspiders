@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Insertion</title>
+    <title>Document</title>
 </head>
-<body>
-    <h1>Inserting Image</h1>
-    <hr color="red">
-    <img src="C:\Users\rohit\Documents\Pyspiders_Python\WEBTECH\Study\HTML\IMG\BMW.jpeg" alt="BMW" title="Home" height="50%">
+<br>
+    <h1> Inserting Image </h1>
+    <hr color="black">
+    <!-- by using image name -->
+    <img src="image.png" alt="Image not found" width="300px" height="20%" title="HTML" style="border: 2px solid black; border-radius: 10px;" loading="lazy" decoding="async" fetchpriority="high" ><br><br>
+    <!-- by  using path -->
+    <image src="C:\Users\rohit\Documents\Pyspiders\WEBTECH\Study\HTML\IMG\BMW.jpeg" alt="Image not found" width="30%" height="50%" title="Rashad " style="border: 2px solid rgb(4, 78, 96); border-radius: 10px;"><br><br>
+        <!-- by using URL -->
+    <img src="https://m.media-amazon.com/images/I/81eSkgnULzL.jpg" alt="Image not found" width="300px" height="70%" title="Cristiano Ronaldo" style="border: 2px solid black; border-radius: 10px;" loading="lazy" decoding="async" fetchpriority="high"><br><br>
+    <picture >
+        <source width="50%" media="(max-width: 427px)" srcset="https://m.media-amazon.com/images/I/81eSkgnULzL.jpg">
+        <source width="50%" media="(max-width: 728px)" srcset="C:\Users\rohit\Documents\Pyspiders\WEBTECH\Study\HTML\IMG\HTML.jpg">
+        <source width="50%" media="(max-width: 1024px)" srcset="C:\Users\rohit\Documents\Pyspiders\WEBTECH\Study\HTML\IMG\BMW.jpeg">
+        <img src="C:\Users\rohit\Documents\Pyspiders\WEBTECH\Study\HTML\IMG\HTML.jpg" alt="Image not found" title="HTML" width="100%">  
+    </picture>
+        
 </body>
 </html>
